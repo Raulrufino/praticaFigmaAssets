@@ -4,9 +4,9 @@
 
 /* Tipografía */
 @font-face {
-    font-family: "";
-    src: url("") format("woof2"),
-         url("") format("woof");
+    font-family: ""; /* Hay que poner el estilo ej robotoMedium */
+    src: url("") format("woff2"), /* salgo de css con ../font/roboto.woff */
+         url("") format("woff");
 }
 
 /* ******************************** */

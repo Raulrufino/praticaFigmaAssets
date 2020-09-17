@@ -2,3 +2,7 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+.compGeneral{
+    display: flex;
+    justify-content: space-between;
+}
