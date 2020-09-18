@@ -1,8 +1,102 @@
 /* *********************************** */
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
+header{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fuente);
+    
+    
+}
 
-.compGeneral{
+
+
+.circulo_texto{
     display: flex;
     justify-content: space-between;
+    width: 230px;
+    height: 72px;
+    background-color: var(--azul-background)
+
+}
+
+
+.circulo_texto_amarillo{
+    
+    width: 64px;
+    height: 69px;
+    background-color: var(--color-amarillo);
+    border-radius: 50px;
+    border: black solid 1px;
+    
+
+}
+
+.circulo_texto_amarillo_unicef{
+    display: flex;
+    align-self: center;
+    width: 150px;
+    height: 14px;
+    color: floralwhite;
+    font-weight: 400;
+    font-size: 12px;
+    
+    
+}
+/* No he conseguido poner el "hazte socio con las letras mas en negrita */
+.hazte_socio{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    background-color: var(--color-amarillo);
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center ;
+    color: black;
+ 
+    
+}
+
+h1{
+    background: var(--azul-background);
+    color: floralwhite; 
+    width: 250px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ayuda_neumonia_niños{
+    background: var(--azul-background);
+    color: floralwhite; 
+    width: 230px;
+    font-size: 16px;
+    
+}
+
+
+.ayuda_hazte_socio{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    background-color: var(--color-amarillo);
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center ;
+    color: black;
+ 
+    
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-around;
+    background:var(--azul-background);
+    width: 100px;
 }
